@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Диплом</title>
   <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
 </head>
+
 
 <body>
   <header class="header">
@@ -34,8 +36,6 @@
     </div>
   </header>
   <h2 class="trends-cards-title">Сейчас в тренде</h2>
-
-  <div class="trends-cards-title-border"></div>
 
   <section class="trends-container">
 
@@ -391,8 +391,10 @@
                 <span class="visually-hidden">Введите поисковый запрос</span>
                 <input class="search-input" type="text" placeholder="Найти..."></label>
 
-              <button class="search-btn"></button>
-              <span class="visually-hidden">Начать поиск</span>
+              <button class="search-btn">
+                <span class="visually-hidden">Начать поиск</span>
+              </button>
+             
             </form>
           </div>
 
@@ -406,8 +408,8 @@
               </label>
 
               <div class="btn-reset sign-in-button">
-                <span class="visually-hidden">Отправить email-адрес</span>
-                <button class="sign-in-button">Подписаться</button>
+             
+                <button class="sign-in-button">Подписаться<span class="visually-hidden"></span></button>
               </div>
             </form>
           </div>
@@ -417,14 +419,14 @@
               Теги
             </h2>
             <ul class="tegs-list-items list-reset">
-              <li class="tegs-list-item-fashion"><a href="#0" class="tegs-link">Fashion</a></li>
-              <li class="tegs-list-item-music"><a href="#0" class="tegs-link">Music</a></li>
-              <li class="tegs-list-item-lifestyle"><a href="#0" class="tegs-link">Lifestyle</a></li>
-              <li class="tegs-list-item-art"><a href="#0" class="tegs-link">Art</a></li>
-              <li class="tegs-list-item-interior"><a href="#0" class="tegs-link">Interior</a></li>
-              <li class="tegs-list-item-travel"><a href="#0" class="tegs-link">Travel</a></li>
-              <li class="tegs-list-item-food"><a href="#0" class="tegs-link">Food</a></li>
-              <li class="tegs-list-item-health"><a href="#0" class="tegs-link">Health</a></li>
+              <li class="tegs-list-item fashion-1"><a href="#0" class="tegs-link">Fashion</a></li>
+              <li class="tegs-list-item music-1"><a href="#0" class="tegs-link">Music</a></li>
+              <li class="tegs-list-item lifestyle-1"><a href="#0" class="tegs-link">Lifestyle</a></li>
+              <li class="tegs-list-item art-1"><a href="#0" class="tegs-link">Art</a></li>
+              <li class="tegs-list-item interior-1"><a href="#0" class="tegs-link">Interior</a></li>
+              <li class="tegs-list-item travel-1"><a href="#0" class="tegs-link">Travel</a></li>
+              <li class="tegs-list-item food-1"><a href="#0" class="tegs-link">Food</a></li>
+              <li class="tegs-list-item health-1"><a href="#0" class="tegs-link">Health</a></li>
             </ul>
           </div>
 
@@ -551,7 +553,9 @@
                 <span class="small-price">500₽</span>
                 <span class="big-price">400₽</span>
               </div>
-              <button class="shop-btn">В магазин</button>
+              <button class="shop-btn">В магазин
+                
+              </button>
             </div>
           </div>
           </div>
@@ -567,14 +571,16 @@
     <ul class="social-icon list-reset">
 
       <li>
-        <a href="#0" class="social-iconinstagram"></a>
-      </li>
-      <li>
-        <a href="#0" class="social-iconfacebook">
+        <a href="#0" class="social-iconinstagram">
+          <span class="visually-hidden"></span>
         </a>
       </li>
       <li>
-        <a href="#0" class="social-icontwitter">
+        <a href="#0" class="social-iconfacebook">   <span class="visually-hidden"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#0" class="social-icontwitter">   <span class="visually-hidden"></span>
         </a>
       </li>
     </ul>
@@ -633,6 +639,12 @@
     </div>
      </div>
     </div>
+
+    <picture>
+      <source srcset="../images/banner-mobile.jpg" media="(max-width: 640px)">
+      <source srcset="../images/banner-bg-tablet.jpg" media="(max-width: 1199px)">
+    </picture>
+
 </body>
 
 </html>

@@ -1,0 +1,12 @@
+
+@media (max-width: 640px)  {
+
+     
+    .header-nav {
+        display: none;
+    }
+   
+    background-image: url(../img/banner-mobile.jpg);
+ 
+  }
+  

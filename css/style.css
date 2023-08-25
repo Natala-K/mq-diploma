@@ -45,7 +45,7 @@ input {
 }
 
 .header {
-  background-image: url("./images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -77,12 +77,11 @@ input {
   padding-right: 15px;
   padding-bottom: 110px;
   max-width: 1200px;
-width: 100%;
+  width: 100%;
 }
 
 .header-title {
   font-size: 45px;
-  line-height: 75px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
@@ -218,7 +217,7 @@ width: 100%;
 
 .blog-preview-image-1 {
   background-color: #eff6f1;
-height: 300px;
+  height: 300px;
   background-size: auto;
   flex-shrink: 0;
   width: 374px;
@@ -745,11 +744,11 @@ a {
 
 
 .tegs-list-item:hover {
-border: 1px solid #b59f5b;
+  border: 1px solid #b59f5b;
 }
 
 .fashion-1 {
- 
+
   width: 76px;
   margin-right: 5px;
 
@@ -762,7 +761,7 @@ border: 1px solid #b59f5b;
 }
 
 .lifestyle-1 {
-  
+
   width: 80px;
   margin-bottom: 5px;
 
@@ -802,7 +801,7 @@ border: 1px solid #b59f5b;
 }
 
 .social-iconfacebook {
-  background-image: url("./svg/002-pinterest.svg");
+  background-image: url("../svg/002-pinterest.svg");
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -811,7 +810,7 @@ border: 1px solid #b59f5b;
 }
 
 .social-iconinstagram {
-  background-image: url("./svg/001-dribbble.svg");
+  background-image: url("../svg/001-dribbble.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
@@ -821,7 +820,7 @@ border: 1px solid #b59f5b;
 }
 
 .social-icontwitter {
-  background-image: url("./svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
@@ -1037,7 +1036,7 @@ border: 1px solid #b59f5b;
 }
 
 .cell-1 {
-  background-image: url("./images/trend1.jpg");
+  background-image: url("../images/trend1.jpg");
   background-repeat: no-repeat;
   width: 25%;
   min-height: 319px;
@@ -1063,7 +1062,7 @@ border: 1px solid #b59f5b;
 }
 
 .cell-2 {
-  background-image: url("./images/trend2.jpg");
+  background-image: url("../images/trend2.jpg");
   background-repeat: no-repeat;
   width: 25%;
   min-height: 319px;
@@ -1087,7 +1086,7 @@ border: 1px solid #b59f5b;
 }
 
 .cell-3 {
-  background-image: url("./images/trend3.jpg");
+  background-image: url("../images/trend3.jpg");
   background-repeat: no-repeat;
   width: 25%;
   min-height: 319px;
@@ -1112,7 +1111,7 @@ border: 1px solid #b59f5b;
 }
 
 .cell-4 {
-  background-image: url("./images/trend4.jpg");
+  background-image: url("../images/trend4.jpg");
   background-repeat: no-repeat;
   width: 25%;
   min-height: 319px;
@@ -1249,7 +1248,7 @@ border: 1px solid #b59f5b;
 .shop-btn {
   width: 140px;
   height: 48px;
- 
+
 }
 
 .price-btn-container {

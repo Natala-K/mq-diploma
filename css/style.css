@@ -744,7 +744,7 @@ a {
 
 
 .tegs-list-item:hover {
-  border: 1px solid #b59f5b;
+  border: 3px solid #b59f5b;
 }
 
 .fashion-1 {
@@ -1158,13 +1158,6 @@ a {
   position: relative;
 }
 
-.trends-cards-title:hover {
-  font-size: 20px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #b59f5b;
-  font-weight: 700;
-}
 
 .trends-cards-title::after {
   content: "";
@@ -1178,6 +1171,15 @@ a {
   position: absolute;
 
 }
+
+.trends-cards-title:hover {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #b59f5b;
+  font-weight: 700;
+}
+
 
 
 .item-section-1 {

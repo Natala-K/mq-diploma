@@ -227,10 +227,7 @@
 
     }
 
-    .item-paragraph {
-        width: 250px;
-
-    }
+   
 
     .items-container {
         width: 100%;
@@ -241,16 +238,16 @@
     }
 
     .sign-in-button {
-        width: 114%;
+        width: 100%;
     }
 
     .sign-in-button:hover {
-        width: 114%;
+        width: 100%;
     }
 
 
     .address-input {
-        width: 130%;
+        width: 100%;
     }
 
 

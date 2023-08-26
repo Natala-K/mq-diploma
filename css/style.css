@@ -221,6 +221,7 @@ input {
   flex-shrink: 0;
   width: 48%;
   height: 50%;
+  margin-right: 20px;
 
 }
 
@@ -231,6 +232,7 @@ input {
   flex-shrink: 0;
   width: 48%;
   height: 50%;
+  margin-right: 20px;
 
 }
 
@@ -241,6 +243,7 @@ input {
   flex-shrink: 0;
   width: 48%;
   height: 50%;
+  margin-right: 20px;
 }
 
 .blog-preview-image-4 {
@@ -250,6 +253,7 @@ input {
   flex-shrink: 0;
   width: 48%;
   height: 50%;
+  margin-right: 20px;
 }
 
 .blog-preview-image-5 {
@@ -259,6 +263,7 @@ input {
   flex-shrink: 0;
   width: 48%;
   height: 50%;
+  margin-right: 20px;
 }
 
 .blog-preview-image-6 {
@@ -267,6 +272,7 @@ input {
   flex-shrink: 0;
   width: 48%;
   height: 50%;
+  margin-right: 20px;
 
 }
 
@@ -278,6 +284,9 @@ input {
   height: 300px;
   width: 48%;
   height: 50%;
+  margin-right: 20px;
+  
+ 
 }
 
 
@@ -322,12 +331,13 @@ input {
 .main-container {
   margin: 0 auto;
   max-width: 1200px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 63px;
   box-sizing: border-box;
-  width: 100%;
+
 }
 
 .tegs-list-items {
@@ -371,12 +381,14 @@ input {
 article {
   max-width: 775px;
   display: flex;
+ 
 }
 
 .last-news {
   width: 25%;
 
 }
+
 
 textarea {
   border: none;
@@ -396,9 +408,6 @@ textarea {
 
 }
 
-.blog-preview-text {
-  margin-left: 30px;
-}
 
 .last-news-title {
   font-size: 14px;
@@ -1200,7 +1209,7 @@ a {
   padding-right: 25px;
 
   --offsets: 2;
-border: 1px solid red;
+
 }
 
 
@@ -1214,20 +1223,9 @@ border: 1px solid red;
  
 }
 
-.items-card-1 {
-  width: calc((100% - (111px * 2 + 21 * 2)) / 3);
-}
-
-.items-card-2 {
-  width: calc((100% - (111px * 2 + 21 * 2)) / 3);
-}
-
-.items-card-3 {
-  width: calc((100% - (111px * 2 + 21 * 2)) / 3);
-}
 
 .item-paragraph {
-  width: 301px;
+  max-width: 301px;
   min-height: 63px;
   font-size: 15px;
   color: #0f0d0e;
@@ -1338,7 +1336,7 @@ border: 1px solid red;
 .outline-container-2 {
   outline: 3px solid #b59f5b;
   outline-offset: 25px;
-
+  padding-bottom: 10px;
 }
 
 .outline-container-3 {

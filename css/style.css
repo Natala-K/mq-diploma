@@ -23,7 +23,6 @@ button {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
-  line-height: 40px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -33,7 +32,6 @@ input {
   border: none;
   opacity: 0.541;
   font-size: 13px;
-  line-height: 40px;
   font-weight: 400;
 
 }
@@ -99,7 +97,6 @@ input {
 
 .link_margin:hover {
   font-size: 14px;
-  line-height: 20px;
   text-decoration: underline;
   text-transform: uppercase;
   color: #b59f5b;
@@ -172,7 +169,6 @@ input {
 
 .blog-preview-category {
   font-size: 14px;
-  line-height: 20px;
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
@@ -184,7 +180,6 @@ input {
 
 .link_margin {
   font-size: 14px;
-  line-height: 20px;
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
@@ -200,7 +195,6 @@ input {
 
 .blog-preview-title:hover {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
@@ -208,7 +202,6 @@ input {
 
 .last-post-link:hover {
   font-size: 14px;
-  line-height: 18px;
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
@@ -322,7 +315,6 @@ input {
 .blog-preview-descr {
 
   font-size: 15px;
-  line-height: 22px;
   color: #0f0d0e;
   font-weight: 400;
   margin-top: 40px;
@@ -401,7 +393,6 @@ textarea {
 
 .blog-preview-title {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -411,7 +402,6 @@ textarea {
 
 .last-news-title {
   font-size: 14px;
-  line-height: 29px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -464,14 +454,17 @@ textarea {
 
 .last-news-title-line::after {
   content: "";
-  position: absolute;
+
   width: 66px;
   min-height: 3px;
   background-color: #b59f5b;
   opacity: 0.4;
-  bottom: 1470px;
-  left: 110px;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
 }
+
+
 
 .sign-in-form-section {
   position: relative;
@@ -479,13 +472,13 @@ textarea {
 
 .sign-in-form-title-line::after {
   content: "";
-  position: absolute;
   width: 66px;
   min-height: 3px;
   background-color: #b59f5b;
   opacity: 0.4;
-  bottom: 125px;
-  left: 103px;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
 }
 
 .tegs-list {
@@ -494,28 +487,29 @@ textarea {
 
 .tegs-list-title-line::after {
   content: "";
-  position: absolute;
   width: 66px;
   min-height: 3px;
   background-color: #b59f5b;
   opacity: 0.4;
-  bottom: 125px;
-  left: 105px;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
 }
 
 .topics-list {
   position: relative;
+
 }
 
 .topics-list-title-line::after {
   content: "";
-  position: absolute;
   width: 66px;
   min-height: 3px;
   background-color: #b59f5b;
   opacity: 0.4;
-  bottom: 330px;
-  left: 105px;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
 }
 
 .visually-hidden {
@@ -566,11 +560,11 @@ textarea {
 .topics-list-items {
   margin-top: 26px;
 
+
 }
 
 .blog-preview-author {
   font-size: 12px;
-  line-height: 40px;
   color: #000000;
   font-weight: 700;
   margin-left: 16px;
@@ -600,7 +594,6 @@ textarea {
 .last-news-date {
   opacity: 0.541;
   font-size: 12px;
-  line-height: 20px;
   color: #000000;
   font-weight: 400;
   margin-left: 15px;
@@ -631,7 +624,6 @@ textarea {
 
 .last-post-link {
   font-size: 14px;
-  line-height: 18px;
   text-transform: uppercase;
   color: #000000;
   font-weight: 700;
@@ -643,7 +635,6 @@ textarea {
 
 .sign-in-form-title {
   font-size: 14px;
-  line-height: 29px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -652,7 +643,6 @@ textarea {
 
 .tegs-list-title {
   font-size: 14px;
-  line-height: 29px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -661,7 +651,6 @@ textarea {
 
 .topics-list-title {
   font-size: 14px;
-  line-height: 29px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -670,7 +659,6 @@ textarea {
 
 .topics-list-item {
   font-size: 14px;
-  line-height: 47px;
   color: #000000;
   font-weight: 700;
   border-bottom: 1px solid #eeeeee;
@@ -679,7 +667,6 @@ textarea {
 
 .topics-link:hover {
   font-size: 14px;
-  line-height: 47px;
   color: #b59f5b;
   font-weight: 700;
 
@@ -740,7 +727,6 @@ a {
 
 .tegs-list-items {
   font-size: 12px;
-  line-height: 40px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -845,6 +831,9 @@ a {
 .social-icon {
   display: flex;
   justify-content: center;
+  padding-top: 31px;
+  padding-bottom: 31px;
+
 
 }
 
@@ -853,6 +842,7 @@ a {
   max-width: 1200px;
   width: 100%;
   margin-top: 63px;
+  
  
 
 }
@@ -875,7 +865,6 @@ a {
 .social-icon {
   display: flex;
   align-items: center;
-  min-height: 80px;
   background-color: #f4f7f6;
 
 }
@@ -888,7 +877,6 @@ a {
 
 .trends-title-1 {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
@@ -899,7 +887,6 @@ a {
 
 .trends-title-2 {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
@@ -910,7 +897,6 @@ a {
 
 .trends-title-3 {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
@@ -921,7 +907,6 @@ a {
 
 .trends-title-4 {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
@@ -1164,7 +1149,6 @@ a {
 
 .trends-cards-title {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: black;
   font-weight: 700;
@@ -1184,13 +1168,14 @@ a {
   opacity: 0.4;
   top: 30px;
   left: 655px;
-  position: absolute;
+  display: block;
+  margin: auto;
+margin-top: 12px;
 
 }
 
 .trends-cards-title:hover {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
@@ -1207,7 +1192,6 @@ a {
   align-items: flex-start;
   padding-left: 25px;
   padding-right: 25px;
-
   --offsets: 2;
 
 }
@@ -1220,13 +1204,13 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
  
 }
 
 
 .item-paragraph {
-  max-width: 301px;
-  min-height: 63px;
+
   font-size: 15px;
   color: #0f0d0e;
   font-weight: 400;
@@ -1243,7 +1227,6 @@ a {
 
 .item-section-title {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: black;
   font-weight: 700;
@@ -1262,14 +1245,15 @@ a {
   opacity: 0.4;
   top: 35px;
   left: 650px;
-  position: absolute;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
 }
 
 
 .item-title {
 
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -1298,7 +1282,6 @@ a {
 
 .small-price {
   font-size: 14px;
-  line-height: 24px;
   text-decoration: line-through;
   text-transform: uppercase;
   color: #0f0d0e;
@@ -1308,7 +1291,6 @@ a {
 
 .big-price {
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -1328,21 +1310,27 @@ a {
 
 
 .outline-container-1 {
-  outline: 3px solid #b59f5b;
-  outline-offset: 25px;
-  padding-bottom: 24px;
+  border: 3px solid #b59f5b;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 43px;
+  padding-right: 25px;
+margin-top: -30px;
 }
 
 .outline-container-2 {
-  outline: 3px solid #b59f5b;
-  outline-offset: 25px;
-  padding-bottom: 10px;
+  border: 3px solid #b59f5b;
+  padding: 25px;
+margin-top: -30px;
 }
 
 .outline-container-3 {
-  outline: 3px solid #b59f5b;
-  outline-offset: 25px;
-  padding-bottom: 23px;
+  border: 3px solid #b59f5b;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 43px;
+  padding-right: 25px;
+margin-top: -30px;
 
 }
 
@@ -1374,7 +1362,6 @@ a {
 .popup-title {
   width: 301px;
   font-size: 20px;
-  line-height: 24px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
@@ -1409,7 +1396,6 @@ a {
   border: none;
   opacity: 0.541;
   font-size: 13px;
-  line-height: 40px;
   font-weight: 400;
   -moz-appearance: none;
 

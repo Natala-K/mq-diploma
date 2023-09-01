@@ -66,6 +66,8 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+ 
+
 
 }
 
@@ -76,6 +78,7 @@ input {
   padding-bottom: 110px;
   max-width: 1200px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .header-title {
@@ -273,8 +276,6 @@ input {
   background-color: #eff6f1;
   background-size: auto;
   flex-shrink: 0;
-  width: 374px;
-  height: 300px;
   width: 48%;
   height: 50%;
   margin-right: 20px;
@@ -616,7 +617,6 @@ textarea {
 
 .blog-preview-time {
   font-size: 12px;
-
   color: #888888;
   font-weight: 400;
   margin-top: 37px;
@@ -1136,6 +1136,10 @@ a {
 
 }
 
+.topics-list-item {
+  line-height: 47px;
+}
+
 .trends-container {
   display: flex;
   gap: 5px;
@@ -1189,14 +1193,34 @@ margin-top: 12px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   padding-left: 25px;
   padding-right: 25px;
   --offsets: 2;
 
 }
 
+.items-card-1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+
+.items-card-2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.items-card-3 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .items-container {
   width: 100%;
@@ -1316,21 +1340,24 @@ margin-top: 12px;
   padding-bottom: 43px;
   padding-right: 25px;
 margin-top: -30px;
+flex-grow: 1;
 }
 
 .outline-container-2 {
   border: 3px solid #b59f5b;
   padding: 25px;
 margin-top: -30px;
+flex-grow: 1;
 }
 
-.outline-container-3 {
+.outline-container {
   border: 3px solid #b59f5b;
   padding-top: 25px;
   padding-left: 25px;
   padding-bottom: 43px;
   padding-right: 25px;
 margin-top: -30px;
+flex-grow: 1;
 
 }
 

@@ -25,6 +25,7 @@ button {
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+  z-index: 2;
 }
 
 input {
@@ -336,7 +337,7 @@ input {
 .tegs-list-items {
   display: flex;
   flex-wrap: wrap;
-  padding: 5px;
+
 }
 
 .fashion-1:hover {
@@ -413,40 +414,40 @@ textarea {
   background-color: #eff6f1;
   background-size: auto;
   flex-shrink: 0;
-  width: 23%;
-  height: 23%;
+  width: 70px;
+  height: 70px;
 }
 
 .news-preview-image-2 {
   background-color: #eff6f1;
   background-size: auto;
   flex-shrink: 0;
-  width: 23%;
-  height: 23%;
+  width: 70px;
+  height: 70px;
 }
 
 .news-preview-image-3 {
   background-color: #eff6f1;
   background-size: auto;
   flex-shrink: 0;
-  width: 23%;
-  height: 23%;
+  width: 70px;
+  height: 70px;
 }
 
 .news-preview-image-4 {
   background-color: #eff6f1;
   background-size: auto;
   flex-shrink: 0;
-  width: 23%;
-  height: 23%;
+  width: 70px;
+  height: 70px;
 }
 
 .news-preview-image-5 {
   background-color: #eff6f1;
   background-size: auto;
   flex-shrink: 0;
-  width: 23%;
-  height: 23%;
+ width: 70px;
+  height: 70px;
 }
 
 .last-news-section {

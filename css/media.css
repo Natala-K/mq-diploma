@@ -219,10 +219,12 @@
 
     .items-card-1 {
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .items-card-2 {
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .items-card-3 {
@@ -236,14 +238,12 @@
         margin-left: 20px;
         margin-right: 20px;
 
-
     }
 
     .main-container {
         display: flex;
         flex-direction: column;
         padding-left: 35px;
-
     }
 
 
@@ -311,20 +311,16 @@
     }
 
     .header-title {
-
-
         margin-top: 183px;
         font-size: 40px;
         margin-left: 85px;
         margin-right: 85px;
         text-align: center;
-
     }
 
 
 
     .main-container {
-
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -476,20 +472,31 @@
 
     .items-card-1 {
         width: 50%;
-
-
+        
     }
-
 
     .items-card-2 {
         width: 50%;
-
     }
-
 
     .items-card-3 {
         width: 50%;
-
     }
+
+
+    .container-1 {
+margin-right: 2%;
+margin-bottom: 10px;
+    }
+
+    .container-2 {
+        margin-left: 2%;
+        margin-bottom: 10px;
+            }
+
+}
+
+@media (min-width: 641px), (orientation: landscape) and (max-width: 640px) {
+
 
 }

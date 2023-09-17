@@ -58,6 +58,8 @@
         margin-top: 220px;
         font-size: 26px;
         text-align: center;
+        padding-left: 70px;
+        padding-right: 70px;
 
     }
 
@@ -308,6 +310,8 @@
     .header {
         background-image: url(../images/banner-bg-tablet.jpg);
         position: relative;
+        padding-left: 100px;
+        padding-right: 100px;
 
     }
 
@@ -317,6 +321,7 @@
         font-size: 40px;
         margin-right: auto;
         text-align: center;
+      
     }
 
 

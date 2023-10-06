@@ -67,6 +67,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+ 
 
 
 }
@@ -145,6 +146,7 @@ input {
   width: 178px;
   z-index: 2;
   position: relative;
+  margin-right: auto;
 }
 
 .list-reset {
@@ -453,7 +455,6 @@ textarea {
 
 .last-news-title-line::after {
   content: "";
-
   width: 66px;
   min-height: 3px;
   background-color: #b59f5b;
@@ -525,7 +526,7 @@ textarea {
 .search-input {
   box-sizing: border-box;
   resize: none;
-  width: 222px;
+  width: 250px;
   height: 48px;
   padding-left: 18px;
   padding-right: 18px;
@@ -538,7 +539,7 @@ textarea {
 .address-input {
   box-sizing: border-box;
   resize: none;
-  width: 270px;
+  width: 100%;
   height: 48px;
   padding-left: 18px;
   padding-right: 18px;
@@ -546,6 +547,7 @@ textarea {
   margin-top: 20px;
 
 }
+
 
 
 .address-input:focus {
@@ -692,14 +694,14 @@ textarea {
 }
 
 .sign-in-button {
-  width: 270px;
+  width: 100%;
   height: 48px;
 
 }
 
 
 .sign-in-button:hover {
-  width: 270px;
+  width: 100%;
   height: 48px;
   background-color: #323232;
   cursor: pointer;
@@ -737,66 +739,24 @@ a {
   align-items: center;
   background-color: rgba(244, 243, 241, 0);
   border: 3px solid #eeeeee;
-  height: 24px;
+ padding: 6px 10px;
+ margin-bottom: 3px;
+ 
 }
 
+
+.tegs-list-item:not(:last-child) {
+
+ margin-right: 5px;
+}
 
 .tegs-list-item:hover {
   border: 3px solid #b59f5b;
 }
 
-.fashion-1 {
 
-  width: 76px;
-  margin-right: 5px;
 
-}
 
-.music-1 {
-
-  width: 75px;
-  margin-right: 5px;
-}
-
-.lifestyle-1 {
-
-  width: 80px;
-  margin-bottom: 5px;
-
-}
-
-.art-1 {
-
-  width: 59px;
-  margin-right: 5px;
-
-}
-
-.interior-1 {
-
-  width: 73px;
-  margin-right: 5px;
-}
-
-.travel-1 {
-
-  width: 67px;
-  margin-bottom: 5px;
-
-}
-
-.food-1 {
-
-  width: 65px;
-  margin-right: 5px;
-
-}
-
-.health-1 {
-
-  width: 66px;
-
-}
 
 .social-iconfacebook {
   background-image: url("../svg/002-pinterest.svg");
@@ -920,14 +880,14 @@ a {
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
-  margin-right: 10px;
+ 
   position: relative;
   z-index: 2;
 
 }
 
 
-.trends-link:not(:last-child) {
+.trends-link-list:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -1135,9 +1095,6 @@ a {
 
 }
 
-.topics-list-item {
-  line-height: 47px;
-}
 
 .trends-container {
   display: flex;
@@ -1364,6 +1321,8 @@ a {
   justify-content: center;
   align-items: center;
 
+
+
 }
 
 .popup {
@@ -1371,6 +1330,7 @@ a {
   width: 280px;
   padding: 50px 30px 30px 30px;
   background-color: #ffffff;
+  position: relative;
 
 
 }
@@ -1430,11 +1390,10 @@ a {
 .textarea-input {
   box-sizing: border-box;
   width: 100%;
-  min-height: 150px;
   padding: 15px;
   margin-top: 10px;
   text-align: top;
-
+  resize: none;
 }
 
 
@@ -1489,13 +1448,18 @@ p {
   height: 20px;
   background-image: url("../svg/form-x.svg");
   background-repeat: no-repeat;
-  display: block;
   margin-left: 290px;
-  margin-top: -10px;
+  position: absolute;
+  top: -23px;
+  background-color: transparent;
 
 }
 
 .cross-btn:hover {
 
   background-color: #323232;
+}
+
+.footer_container {
+  padding-bottom: 45px;
 }
